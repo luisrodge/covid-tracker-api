@@ -2,7 +2,7 @@ const express = require("express");
 const serverless = require("serverless-http");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const fs = require('fs')
+const fs = require("fs");
 
 const data = require("./data.json");
 
@@ -34,6 +34,13 @@ router.put("/cases", (req, res) => {
       break;
     case "recovered":
       data.recovered.total += total;
+
+      for (let i = 0; i < data.cases.length; i++) {
+        if (data.cases[i].district === district) {
+          data.cases[i].active -= total;
+          break;
+        }
+      }
       break;
     case "deceased":
       data.deaths.total += total;

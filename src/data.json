@@ -1,7 +1,7 @@
 {
   "cases": [
     {
-      "active": 296,
+      "active": 295,
       "latitude": 17.1493796,
       "longitude": -89.0950711,
       "offsetLeft": 10,
@@ -50,7 +50,7 @@
     }
   ],
   "recovered": {
-    "total": 1488,
+    "total": 1489,
     "latitude": 17.399665,
     "longitude": -87.706516
   },
