@@ -1,0 +1,88 @@
+{
+  "cases": [
+    {
+      "active": 296,
+      "latitude": 17.1493796,
+      "longitude": -89.0950711,
+      "offsetLeft": 10,
+      "offsetTop": 0,
+      "district": "Cayo"
+    },
+    {
+      "active": 453,
+      "latitude": 17.513144,
+      "longitude": -88.254722,
+      "district": "Belize",
+      "offsetLeft": -60,
+      "offsetTop": -20
+    },
+    {
+      "active": 902,
+      "latitude": 17.768696,
+      "longitude": -89.028184,
+      "district": "Orange Walk",
+      "offsetLeft": 0,
+      "offsetTop": -20
+    },
+    {
+      "active": 340,
+      "latitude": 18.244626,
+      "longitude": -88.316316,
+      "district": "Corozal",
+      "offsetLeft": -30,
+      "offsetTop": -20
+    },
+    {
+      "active": 75,
+      "latitude": 16.867136,
+      "longitude": -88.442571,
+      "district": "Stann Creek",
+      "offsetLeft": -30,
+      "offsetTop": -20
+    },
+    {
+      "active": 41,
+      "latitude": 16.39728,
+      "longitude": -88.944987,
+      "district": "Toledo",
+      "offsetLeft": -10,
+      "offsetTop": -20
+    }
+  ],
+  "recovered": {
+    "total": 1488,
+    "latitude": 17.399665,
+    "longitude": -87.706516
+  },
+  "deaths": {
+    "total": 36,
+    "latitude": 17.699665,
+    "longitude": -87.706516
+  },
+  "districts": [
+    {
+      "id": 1,
+      "name": "Cayo"
+    },
+    {
+      "id": 2,
+      "name": "Belize"
+    },
+    {
+      "id": 3,
+      "name": "Orange Walk"
+    },
+    {
+      "id": 4,
+      "name": "Stann Creek"
+    },
+    {
+      "id": 5,
+      "name": "Corozal"
+    },
+    {
+      "id": 6,
+      "name": "Toledo"
+    }
+  ]
+}
