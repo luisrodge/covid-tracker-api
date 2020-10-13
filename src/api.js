@@ -44,6 +44,13 @@ router.put("/cases", (req, res) => {
       break;
     case "deceased":
       data.deaths.total += total;
+      
+      for (let i = 0; i < data.cases.length; i++) {
+        if (data.cases[i].district === district) {
+          data.cases[i].active -= total;
+          break;
+        }
+      }
       break;
   }
 
